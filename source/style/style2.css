@@ -1,15 +1,15 @@
 /* layout */
 body {background: #000}
 #contents {}
-#section1 {}
-#section2 {}
+#section1 {height: 100vh;}
+#section2 {height: 1000px;}
 #section3 {}
 #section4 {}
 #section5 {}
 #section6 {}
 
 /* container */
-.container {width: 1400px; margin: 0 auto; position: relative; background: rgba(0,0,0,0.3);}
+.container {width: 100%; margin: 0 auto; position: relative; background: rgba(0,0,0,0.3);}
 
 /* row */
 .row {padding: 0 20px;}
@@ -38,16 +38,6 @@ body {background: #000}
 .text-wrap h1 .mail a {color:#EEE3C1;}
 
 
-/* sec2 */
-.sec2 {margin-top: 20px;}
-.sec2 .phone-wrap {overflow: hidden;}
-.sec2 .phone-wrap > div {float: left; position: relative;
-    width: 33.333%;
-}
-.sec2 .phone-wrap > div .box {
-    position: absolute; left: 20px; top: 30px;
-    width: 20vw; height: 30vh; background: red;}
-.sec2 .phone-wrap > div img {width: 100%;}
 
 
 
